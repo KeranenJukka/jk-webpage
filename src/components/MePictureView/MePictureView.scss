@@ -1,0 +1,24 @@
+@import "../../variables/variables.scss";
+
+.me-picture {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    img {
+        width: 70vw;
+        position: relative;
+        right: -100px;
+    }
+}
+
+@media (max-width: $mediumScreenWidth) {
+    .me-picture {
+        img {
+            width: 100%;
+        }
+    }
+}

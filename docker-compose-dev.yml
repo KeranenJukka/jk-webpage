@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./docker/dev/Dockerfile
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/app
+    container_name: jk-webpage-dev
+    environment:
+      - WATCHPACK_POLLING=true
+      - REACT_APP_DEV_URL=http://localhost:8000

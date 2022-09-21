@@ -1,0 +1,38 @@
+@import "../../../variables/variables.scss";
+
+.feedback-box {
+    margin-top: 30px;
+    p {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        color: $color2;
+        font-size: 1.1rem;
+        padding-bottom: 10px;
+    }
+
+    .rating-buttons {
+        button {
+            height: 32px;
+            width: 32px;
+            margin: 0;
+            padding: 7px;
+            border: solid $color2 1px;
+            border-radius: 30px;
+            background-color: none;
+            background: none;
+            color: $color2;
+            margin-left: 5px;
+            margin-right: 5px;
+
+            &.selected {
+                background-color: $color3;
+            }
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            transition: background-color 0.5s;
+        }
+    }
+}

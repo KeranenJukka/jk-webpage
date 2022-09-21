@@ -1,0 +1,55 @@
+@import '../../variables/variables.scss';
+
+#skills-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px $screenPadding 0px $screenPadding;
+
+    .text-wrapper {
+        width: 65vw;
+
+        h2 {
+            margin: 0;
+            margin-bottom: 40px;
+            font-family: 'Poppins', sans-serif;
+            color: $color3;
+            font-weight: 800;
+            font-size: 5rem;
+        }
+
+        .skill-block {
+            position: relative;
+            margin-bottom: 40px;
+            top: 100px;
+
+            p {
+                font-family: 'Poppins', sans-serif;
+                font-size: 1.3rem;
+                color: $color2;
+            }
+
+            p:nth-child(1) {
+                font-weight: 800;
+            }
+        }
+    }
+}
+
+@media (max-width: $mediumScreenWidth) {
+    #skills-view {
+        .text-wrapper {
+            width: 100%;
+
+            h2 {
+                font-size: 3.5rem;
+            }
+
+            .skill-block {
+                p {
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+}

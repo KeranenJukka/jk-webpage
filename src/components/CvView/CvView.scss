@@ -1,0 +1,54 @@
+@import '../../variables/variables.scss';
+
+#cv-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 $screenPadding 0 $screenPadding;
+    margin-bottom: $spaceBetweenElements;
+
+    .text-content {
+        width: 65vw;
+
+        h3 {
+            margin: 0;
+            margin-bottom: 40px;
+            font-family: 'Poppins', sans-serif;
+            color: $color3;
+            font-weight: 800;
+            font-size: 3.5rem;
+        }
+
+        .cv-block {
+            margin-bottom: 40px;
+
+            p {
+                font-family: 'Poppins', sans-serif;
+                font-size: 1.3rem;
+                color: $color2;
+            }
+
+            p:nth-child(1) {
+                font-weight: 800;
+            }
+        }
+    }
+}
+
+@media (max-width: $mediumScreenWidth) {
+    #cv-view {
+        .text-content {
+            width: 100%;
+
+            h3 {
+                font-size: 2rem;
+            }
+
+            .cv-block {
+                p {
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+}

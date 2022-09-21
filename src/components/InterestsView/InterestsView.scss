@@ -1,0 +1,47 @@
+@import '../../variables/variables.scss';
+
+#interests-view {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 $screenPadding 0 $screenPadding;
+    box-sizing: border-box;
+
+    .text-content {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+
+        h4 {
+            margin: 0;
+            margin-bottom: 40px;
+            font-family: 'Poppins', sans-serif;
+            color: $color3;
+            font-weight: 800;
+            font-size: 3.5rem;
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            color: $color2;
+            font-size: 1.4rem;
+        }
+    }
+}
+
+@media (max-width: $mediumScreenWidth) {
+    #interests-view {
+        .text-content {
+            width: 100%;
+
+            h4 {
+                font-size: 2rem;  
+            }
+
+            p {
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
