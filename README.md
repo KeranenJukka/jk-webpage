@@ -38,8 +38,9 @@ With Docker:
 
 1. clone the repository
 2. install Docker
-3. Run 'npm run dev' in the project directory
-4. Or run 'npm run prod' for the production
+3. run 'npm run dev' in the project directory
+4. or run 'npm run prod' for the production
+5. run tests with 'npm t"
 
 In both cases the development server can be run in http://localhost:3000.
 
