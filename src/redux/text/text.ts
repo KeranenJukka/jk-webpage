@@ -74,7 +74,7 @@ export const textFI: TextContent = {
 
     interests: {
         title: 'Kiinnostukset',
-        content: 'Olen pelannut videopelejä 7-vuotiaasta asti ja pelaan edelleen. Tällä hetkellä työn alla on Bloodborne ja Red Dead Redemption 2. Myös elokuvat ovat kiinnostaneet kauan. Seuraavaksi aion mennnä katsomaan Jordan Peelen ohjaaman Nope -elokuvan. Musiikki on kuulunut elämääni aina. Vaikka en ole enää niin aktiivinen muusikko, kuuntelen edelleen paljon musiikkia ja ajoittain puuhailen pienten musiikkiprojektien kanssa. Pidän sijoittamisesta, joten seuraan osakemarkkinoita jonkin verran.'
+        content: 'Olen pelannut videopelejä 7-vuotiaasta asti ja pelaan edelleen. Tällä hetkellä työn alla on Bloodborne ja Red Dead Redemption 2. Myös elokuvat ovat kiinnostaneet kauan. Seuraavaksi aion mennnä katsomaan Jordan Peelen ohjaaman Nope-elokuvan. Musiikki on kuulunut elämääni aina. Vaikka en ole enää niin aktiivinen muusikko, kuuntelen edelleen paljon musiikkia ja ajoittain puuhailen pienten musiikkiprojektien kanssa. Pidän sijoittamisesta, joten seuraan osakemarkkinoita jonkin verran.'
     },
 
     contact: {
@@ -114,7 +114,7 @@ export const textEN: TextContent = {
             },
             {
                 title: 'Project Management',
-                content: 'I managed multiple facade renovation projects in our family business. I was in charge of managing projects, employees and supplies, so I can handle projects that has a larger scope.'
+                content: 'I managed multiple facade renovation projects in our family business. I was in charge of general project, employee and supplies management, so I can handle projects that has a larger scope.'
             },
             {
                 title: 'Financial knowledge',
@@ -128,13 +128,13 @@ export const textEN: TextContent = {
     },
 
     cv: {
-        title: 'Valikoitu työhistoria',
+        title: 'Selected work history',
         content: [
             {
                 title: 'Optima Solutions Oy',
                 year: '2020/1 - 2022/8',
                 jobTitle: 'Software Developer',
-                description: 'I was a developer for House Optima system and parts that were part of it.'
+                description: 'I was a developer for House Optima system and smaller software that were part of it.'
             },
             {
                 title: 'Julkisivupinnoitus Keränen Oy',
