@@ -11,15 +11,16 @@ export default function FrontPageView(): JSX.Element {
     useEffect(() => {
         window.addEventListener('scroll', () => {
             const scrollY: number = window.scrollY
+            const innerWidth = window.innerWidth / 2
 
-            if (scrollY < 1000) {
+            if (scrollY < innerWidth) {
                 gsap.to(firstName.current, { right: scrollY * 2, duration: 1.5 })
                 gsap.to(lastName.current, { left: scrollY * 2, duration: 1.5 })
             }
 
-            if (scrollY >= 1000 && firstName.current.style.right.replace('px', '') < 1000) {
-                gsap.to(firstName.current, { right: 1000 * 2, duration: 1.5 })
-                gsap.to(lastName.current, { left: 1000 * 2, duration: 1.5 })
+            if (scrollY >= innerWidth && firstName.current.style.right.replace('px', '') < innerWidth) {
+                gsap.to(firstName.current, { right: innerWidth * 2, duration: 1.5 })
+                gsap.to(lastName.current, { left: innerWidth * 2, duration: 1.5 })
             }
         })
     }, [])
