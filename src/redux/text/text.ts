@@ -25,7 +25,7 @@ export const textFI: TextContent = {
         content: [
             {
                 title: 'Ohjelmointi',
-                content: 'Työskentelin noin 2 ja puoli vuotta Software Developerina Optima Solutions Oy:llä. Teknologioina meillä oli käytössä esimerkiksi Typescript, React, PHP, Symfony ja Docker. Aloitin paikassa fronttikoodarina ja pian laajensin kirjoittamaan koodia myös bäkkärin puolelle. Ennen Optima Solutionsia tein yksittäisiä projekteja, kuten esimerkiksi verkkokaupan, nettisivuja ja mobiilipelin.'
+                content: 'Työskentelin noin 2 ja puoli vuotta Software Developerina Optima Solutions Oy:llä. Teknologioina meillä oli käytössä esimerkiksi Typescript, React, PHP, Symfony ja Docker. Aloitin paikassa fronttikoodarina ja pian laajensin kirjoittamaan koodia myös bäkkärin puolelle. Ennen Optima Solutionsia tein yksittäisiä projekteja, kuten esimerkiksi verkkokaupan, nettisivuja ja mobiilipelin. Löydät tämän verkkosivun frontti- ja bäkkärikoodin GitHubista:'
             },
             {
                 title: 'Projektinhallinta',
@@ -110,7 +110,7 @@ export const textEN: TextContent = {
         content: [
             {
                 title: 'Coding',
-                content: 'I worked for two and half years at Optima Solutions Oy as a Software Developer. In our technology stack we used for example Typescript, React, PHP, Symfony and Docker. I began as a frontend developer and soon started to write code for backend also. Before Optima Solutions I did small projects like a webshop, websites and a mobile game.'
+                content: 'I worked for two and half years at Optima Solutions Oy as a Software Developer. In our technology stack we used for example Typescript, React, PHP, Symfony and Docker. I began as a frontend developer and soon started to write code for backend also. Before Optima Solutions I did small projects like a webshop, websites and a mobile game. You can find the frontend and backend code for this web app from my GitHub:'
             },
             {
                 title: 'Project Management',

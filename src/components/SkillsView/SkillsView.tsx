@@ -35,6 +35,7 @@ export default function SkillsView(): JSX.Element {
                 <div ref={block1} style={{ opacity: 1 }} className='skill-block'>
                     <p>{textContent.content[0].title}</p>
                     <p>{textContent.content[0].content}</p>
+                    <a rel="noreferrer" target="_blank" href="https://github.com/KeranenJukka">https://github.com/KeranenJukka</a>
                 </div>
 
                 <div ref={block2} style={{ opacity: 1 }} className='skill-block'>
