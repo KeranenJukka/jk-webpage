@@ -114,7 +114,7 @@ export const textEN: TextContent = {
             },
             {
                 title: 'Project Management',
-                content: 'I managed multiple facade renovation projects in our family business. I was in charge of general project management, employee and supplies management, so I can handle projects that has a larger scope.'
+                content: 'I managed multiple facade renovation projects in our family business. I was in charge of project, employee and supplies management, so I can handle projects that has a larger scope.'
             },
             {
                 title: 'Financial knowledge',
